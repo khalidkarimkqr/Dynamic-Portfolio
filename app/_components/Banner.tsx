@@ -62,7 +62,7 @@ const Banner = () => {
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
-                        Resum
+                        Resume
                     </Button>
                 </div>
 
