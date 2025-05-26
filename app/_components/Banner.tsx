@@ -41,18 +41,13 @@ const Banner = () => {
                 ref={containerRef}
             >
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
-                    <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
-                        <span className="text-primary">SOFTWARE</span>
-                        <br /> <span className="ml-4">DEVELOPER</span>
+                    <h1 className="banner-title slide-up-and-fade leading-[.93] text-6xl sm:text-[105px] font-anton">
+                        <span className="text-primary">KHALID</span>
+                        <br /> <span className="ml-4">KARIM</span>
                     </h1>
-                    <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
-                        Hi! I&apos;m{' '}
-                        <span className="font-medium text-foreground">
-                            Khalid
-                        </span>
-                        . An aspiring Software Developer passionate about
-                        building clean, functional, and user-focused web
-                        experiences.
+                    <p className="banner-description slide-up-and-fade mt-6 text-xl sm:text-2xl text-muted-foreground">
+                        Full stack developer who loves solving real-world
+                        problems with code and building cool 3D stuff
                     </p>
                     <Button
                         as="link"

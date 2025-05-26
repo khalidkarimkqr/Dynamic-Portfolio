@@ -67,8 +67,8 @@ export default function RootLayout({
                         rel="noopener noreferrer"
                         className="px-4 block bg-black text-center z-[1] text-sm py-2 hover:text-primary transition-all"
                     >
-                        Debugged by me. Approved by my cat. GitHub lives here
-                        🧠🐈
+                        GitHub lives here. So does my supervisor (aka my cat)
+                        🐈‍ 🐾💻 — click to meet them
                     </a>
                     <Navbar />
                     <main>{children}</main>
