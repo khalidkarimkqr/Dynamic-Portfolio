@@ -58,7 +58,7 @@ const Banner = () => {
                         as="link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="/Khalid_Resume.pdf"
+                        href="/Khalid_resume.pdf"
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
