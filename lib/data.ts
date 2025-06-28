@@ -119,7 +119,7 @@ I built a 32-bit graphical OS using C and x86 Assembly. I wrote a custom bootloa
 
 I also created two demo windows—one with a light/dark mode toggle, and another showing a bouncing ball animation using raw pixel rendering.
 
-br/><br/>Feel free to check out the live demo or dive into the GitHub repo using the icons above for all the code, technical details, and full documentation.</br/>`,
+<br/><br/>Feel free to check out the live demo or dive into the GitHub repo using the icons above for all the code, technical details, and full documentation.</br/>`,
 
         role: ``,
         techStack: [
@@ -153,7 +153,7 @@ I built AI Podcast Clipper to turn long podcast episodes into short, viral clips
 
 The platform runs entirely in the browser using Vercel, Supabase, and Modal for a fully serverless workflow.
 
-<br/><br/>Check out the live demo or GitHub repo above.`,
+<br/><br/>Feel free to check out the live demo or dive into the GitHub repo using the icons above for all the code, technical details, and full documentation.</br/>`,
 
         role: ``,
         techStack: [
@@ -186,7 +186,7 @@ The platform runs entirely in the browser using Vercel, Supabase, and Modal for 
         description: `
 I built NASA Mission Control to simulate rocket launches using the SpaceX REST API. I developed the backend with Node.js, Express, and MongoDB, and created a beautiful React dashboard to track launches, schedule missions, and handle aborts. The app is containerized with Docker, deployed on AWS EC2, and integrated with CI/CD using GitHub Actions. APIs were tested using Postman, and automated with Jest and Supertest.
 
-<br/><br/>Try the live demo or explore the full codebase on GitHub.`,
+<br/><br/>Feel free to check out the live demo or dive into the GitHub repo using the icons above for all the code, technical details, and full documentation.</br/>`,
 
         role: ``,
         techStack: [

@@ -157,6 +157,10 @@ const ProjectDetails = ({ project }: Props) => {
                                 <div className="text-lg prose-xl markdown-text">
                                     {parse(project.description)}
                                 </div>
+
+                                <div className="text-center text-muted-foreground text-sm mb-2 animate-bounce">
+                                    ↓ scroll to see preview
+                                </div>
                             </div>
                             {project.role && (
                                 <div className="fade-in-later">
@@ -173,10 +177,6 @@ const ProjectDetails = ({ project }: Props) => {
 
                         <ArrowAnimation />
                     </div>
-                </div>
-
-                <div className="text-center text-muted-foreground text-sm -mt-8 mb-2 animate-bounce">
-                    ↓ scroll to see preview
                 </div>
 
                 <div
