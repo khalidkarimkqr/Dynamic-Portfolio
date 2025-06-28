@@ -175,6 +175,10 @@ const ProjectDetails = ({ project }: Props) => {
                     </div>
                 </div>
 
+                <div className="text-center text-muted-foreground text-sm mb-2 animate-bounce">
+                    ↓ scroll to see preview
+                </div>
+
                 <div
                     className="fade-in-later relative flex flex-col gap-2 max-w-[800px] mx-auto"
                     id="images"

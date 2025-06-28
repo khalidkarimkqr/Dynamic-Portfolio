@@ -46,8 +46,9 @@ const Banner = () => {
                         <br /> <span className="ml-4">KARIM</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-xl sm:text-2xl text-muted-foreground">
-                        Full stack developer who loves solving real-world
-                        problems with code and building cool 3D stuff
+                        Software engineer with a passion for low-level
+                        programming, AI pipelines, and full-stack product
+                        development.
                     </p>
                     <Button
                         as="link"
@@ -64,7 +65,7 @@ const Banner = () => {
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            600+
+                            700+
                         </h5>
                         <p className="text-muted-foreground">
                             Commits This Year
@@ -72,7 +73,7 @@ const Banner = () => {
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            9
+                            13
                         </h5>
                         <p className="text-muted-foreground">
                             Completed Projects

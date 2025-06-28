@@ -107,6 +107,110 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
+        title: 'Graphical Operating System',
+        slug: 'graphical-os',
+        liveUrl: '',
+        sourceCode:
+            'https://github.com/khalidkarimkqr/Graphical-Operating-System',
+
+        year: 2025,
+        description: `
+I built a 32-bit graphical OS using C and x86 Assembly. I wrote a custom bootloader, implemented multitasking, and handled real-time input via hardware interrupts. The system runs on QEMU and operates independently of any existing kernel.
+
+I also created two demo windows—one with a light/dark mode toggle, and another showing a bouncing ball animation using raw pixel rendering.
+
+br/><br/>Feel free to check out the live demo or dive into the GitHub repo using the icons above for all the code, technical details, and full documentation.</br/>`,
+
+        role: ``,
+        techStack: [
+            'C',
+            'x86 Assembly',
+            'QEMU',
+            'NASM',
+            'GCC',
+            'Make',
+            'Protected Mode',
+            'Hardware Interrupts',
+            'Linux',
+        ],
+        thumbnail: '/projects/thumbnail/graphical-os.jpg',
+        longThumbnail: '/projects/long/graphical-os.jpg',
+        images: [
+            '/projects/images/graphical-os-1.png',
+            '/projects/images/graphical-os-2.png',
+            '/projects/images/graphical-os-3.png',
+        ],
+    },
+    {
+        title: 'AI Podcast Clipper',
+        slug: 'ai-podcast-clipper',
+        liveUrl: 'https://ai-podcast-clipper-frontend-kk.vercel.app/',
+        sourceCode: 'https://github.com/khalidkarimkqr/AI-Podcast-Clipper-SaaS',
+
+        year: 2025,
+        description: `
+I built AI Podcast Clipper to turn long podcast episodes into short, viral clips. I used WhisperX for transcription and integrated an emotion-based model to detect highlights. Subtitles, speaker labels, and timestamps are auto-generated and delivered in one click.
+
+The platform runs entirely in the browser using Vercel, Supabase, and Modal for a fully serverless workflow.
+
+<br/><br/>Check out the live demo or GitHub repo above.`,
+
+        role: ``,
+        techStack: [
+            'Next.js',
+            'FastAPI',
+            'Python',
+            'TensorFlow',
+
+            'Inngest',
+
+            'Stripe',
+            'Modal',
+            'AWS S3',
+        ],
+        thumbnail: '/projects/thumbnail/ai-clipper.jpg',
+        longThumbnail: '/projects/long/ai-clipper.jpg',
+        images: [
+            '/projects/images/ai-clipper-1.png',
+            '/projects/images/ai-clipper-2.png',
+            '/projects/images/ai-clipper-3.png',
+        ],
+    },
+    {
+        title: 'NASA Mission Control',
+        slug: 'nasa-mission-control',
+        liveUrl: 'http://3.135.205.104:8000/',
+        sourceCode: 'https://github.com/khalidkarimkqr/nasa-project',
+
+        year: 2025,
+        description: `
+I built NASA Mission Control to simulate rocket launches using the SpaceX REST API. I developed the backend with Node.js, Express, and MongoDB, and created a beautiful React dashboard to track launches, schedule missions, and handle aborts. The app is containerized with Docker, deployed on AWS EC2, and integrated with CI/CD using GitHub Actions. APIs were tested using Postman, and automated with Jest and Supertest.
+
+<br/><br/>Try the live demo or explore the full codebase on GitHub.`,
+
+        role: ``,
+        techStack: [
+            'Node.js',
+            'Express.js',
+            'MongoDB',
+            'React',
+            'Tailwind CSS',
+            'Docker',
+            'AWS EC2',
+            'GitHub Actions (CI/CD)',
+            'Jest',
+            'SpaceX API',
+        ],
+        thumbnail: '/projects/thumbnail/nasa-mission.jpg',
+        longThumbnail: '/projects/long/nasa-mission.jpg',
+        images: [
+            '/projects/images/nasa-1.png',
+            '/projects/images/nasa-2.png',
+            '/projects/images/nasa-3.png',
+        ],
+    },
+
+    {
         title: 'UniStream',
         slug: 'uni-stream',
         liveUrl: 'https://uni-stream.vercel.app/',
@@ -267,17 +371,24 @@ I built UniStream as a full-stack event platform for universities. Using React, 
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Frontend Developer',
-        company: 'Google Developer Student Club',
-        duration: 'May 2025 - Present',
-    },
-    {
-        title: 'Software Developer',
-        company: 'CJSF 90.1 FM',
+        title: 'Software Engineer Intern',
+        company: 'CJSF 90.1FM Radio Station',
         duration: 'Oct 2024 - Jan 2025',
     },
     {
-        title: 'Backend Developer (Casual / On call)',
+        title: 'Full Stack Developer',
+        company: 'Google Developer Student Clubs',
+        duration: 'May 2025 - Present',
+    },
+
+    {
+        title: 'Software Developer',
+        company: 'SFU Surge',
+        duration: 'Jan 2025 - Apr 2025',
+    },
+
+    {
+        title: 'Back-end Developer (Casual / On call)',
         company: 'Horizon Expedition',
         duration: 'Sep 2024 - Nov 2024',
     },

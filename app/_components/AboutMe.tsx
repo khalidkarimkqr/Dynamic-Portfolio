@@ -73,19 +73,18 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m a software developer in the making who
-                                genuinely enjoys building things that work and
-                                actually help people.
+                                I&apos;m a software engineer who enjoys building
+                                real things—tools, systems, and interfaces that
+                                solve actual problems.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                I’ve explored web development and machine
-                                learning, and I’ve picked up a solid
-                                understanding of how the web fits together—from
-                                front-end design to back-end logic. I’m always
-                                looking to level up, take on new challenges, and
-                                work on projects that feel meaningful. I love
-                                teaming up with other builders and learning from
-                                the community along the way.
+                                I’ve built everything from operating systems and
+                                backend APIs to AI-powered tools and modern web
+                                platforms. Working across the stack has helped
+                                me understand how code runs—from hardware-level
+                                logic to high-level user experiences. I like
+                                working on projects that feel useful, teaming up
+                                with others, and learning by doing.
                             </p>
                         </div>
                     </div>
