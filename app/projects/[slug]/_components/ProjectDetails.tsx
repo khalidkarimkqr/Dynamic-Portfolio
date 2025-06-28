@@ -158,7 +158,7 @@ const ProjectDetails = ({ project }: Props) => {
                                     {parse(project.description)}
                                 </div>
 
-                                <div className="text-center text-muted-foreground text-sm mb-2 animate-bounce">
+                                <div className="text-center text-muted-foreground text-sm mt-8 mb-2 animate-bounce">
                                     ↓ scroll to see preview
                                 </div>
                             </div>
