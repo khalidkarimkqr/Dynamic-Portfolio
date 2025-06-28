@@ -175,7 +175,7 @@ const ProjectDetails = ({ project }: Props) => {
                     </div>
                 </div>
 
-                <div className="text-center text-muted-foreground text-sm mb-2 animate-bounce">
+                <div className="text-center text-muted-foreground text-sm -mt-8 mb-2 animate-bounce">
                     ↓ scroll to see preview
                 </div>
 
